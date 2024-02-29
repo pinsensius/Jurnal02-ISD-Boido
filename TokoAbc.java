@@ -14,11 +14,17 @@ public class TokoAbc <E>{
 
     public void setData(int index, E elements){
         list.set(index, elements);
+        System.out.println("Sebuah data telah diubah pada indeks ke-"+index);
+        System.out.println();
+        System.out.println("Dengan data berikut ("+elements+")");
+        System.out.println();
+
 
     }
 
     public void removeData(int entry){
         list.remove(entry);
+        System.out.println("Sebuah data telah dihapus pada indeks ke-"+entry);
     }
 
     public void display(){

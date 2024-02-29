@@ -22,7 +22,9 @@ public class Main {
 
         toko.toString();
         bag.toString();
+        System.out.println("<======================= ATK =======================>");
         bag.display();
+        System.out.println("<======================= BAG =======================>");
         toko.display();
     }
 }
